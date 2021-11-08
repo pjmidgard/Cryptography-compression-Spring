@@ -249,7 +249,7 @@ class compression:
                                 wers=""
                                 countraz=0
                                 blockD=(nameze*14)
-                                blockDE=(nameze*14)-15-nameze2
+                                blockDE=(nameze*14)-14-nameze2
             
             
                                 
@@ -533,7 +533,7 @@ class compression:
 
 
                         
-                        blockD=(nameze*14)-15-nameze2
+                        blockD=(nameze*14)-14-nameze2
                         block=nameze
                         blockw=nameze-1
                         blockw1=16384
