@@ -72,6 +72,7 @@ szx=""
 wer=""
 namez = input("c,c2: compress or e,u2: extract? ")
 nameze = int(input("Please, block. "))
+nameze2 = int(input("Please, bits. "))
 
 f = open("PI_10M.txt", "r")
 PI=f.read()
@@ -248,7 +249,7 @@ class compression:
                                 wers=""
                                 countraz=0
                                 blockD=(nameze*14)
-                                blockDE=(nameze*14)-15
+                                blockDE=(nameze*14)-15-nameze2
             
             
                                 
@@ -532,7 +533,7 @@ class compression:
 
 
                         
-                        blockD=(nameze*14)-15
+                        blockD=(nameze*14)-15-nameze2
                         block=nameze
                         blockw=nameze-1
                         blockw1=16384
