@@ -71,7 +71,7 @@ name=""
 szx=""
 wer=""
 namez = input("c,c2: compress or e,u2: extract? ")
-nameze = input("Please, block. ")
+nameze = int(input("Please, block. "))
 
 f = open("PI_10M.txt", "r")
 PI=f.read()
