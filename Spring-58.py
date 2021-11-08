@@ -373,7 +373,7 @@ class compression:
                                             numbertc=takebitdw
                                             
                                                
-                                            while sw<180222:
+                                            while sw<nameze:
                                                     
                                                 numbertc3=numbertc%16383
                                                 numbertc1=numbertc//16383
@@ -407,7 +407,7 @@ class compression:
                                             el1=blockD
                                             eo1=blockD
                                            
-                                            while sw<180222:
+                                            while sw<nameze:
                                                     
                                                 el1=eo1
                                                 eo1=eo1-14
